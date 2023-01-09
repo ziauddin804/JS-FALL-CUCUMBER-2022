@@ -1,0 +1,158 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673225899797' stop='1673225914080'>
+    <name>Sprint: Verify language can be changed successfully</name>
+    <title>Sprint: Verify language can be changed successfully</title>
+    <test-cases>
+        <test-case start='1673225899797' status='passed' stop='1673225899797'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673225899797' status='passed' stop='1673225914078'>
+            <name>Given I am on hotels</name>
+            <title>Given I am on hotels</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps>
+                <step start='1673225899797' status='passed' stop='1673225902205'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2d2e54ec-2308-41bf-ab22-caad67f4d833-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673225907206' status='passed' stop='1673225909076'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='721f7bbf-8a5d-4877-964e-430ae442a77f-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673225914078' status='broken' stop='1673225914078'>
+            <name>When I change</name>
+            <title>When I change</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I change" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I change" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify language can be changed successfully):49:5
+                	at Step(I change):51:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673225914078' status='broken' stop='1673225914079'>
+            <name>And I type 'abcd@1234' as password</name>
+            <title>And I type 'abcd@1234' as password</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I type 'abcd@1234' as password" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I type 'abcd@1234' as password" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify language can be changed successfully):49:5
+                	at Step(I type 'abcd@1234' as password):52:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673225914079' status='broken' stop='1673225914080'>
+            <name>And I click login button</name>
+            <title>And I click login button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click login button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click login button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify language can be changed successfully):49:5
+                	at Step(I click login button):53:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673225914080' status='broken' stop='1673225914080'>
+            <name>Then I Verify error is displayed</name>
+            <title>Then I Verify error is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I Verify error is displayed" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I Verify error is displayed" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify language can be changed successfully):49:5
+                	at Step(I Verify error is displayed):54:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673225914080' status='passed' stop='1673225914080'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

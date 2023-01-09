@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673232702404' stop='1673232711044'>
+    <name>Sprint: Verify past dates and back button on Current month's calender is disabled</name>
+    <title>Sprint: Verify past dates and back button on Current month's calender is disabled</title>
+    <test-cases>
+        <test-case start='1673232702405' status='passed' stop='1673232702406'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673232702406' status='passed' stop='1673232711041'>
+            <name>Given I am on hotels</name>
+            <title>Given I am on hotels</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps>
+                <step start='1673232702407' status='passed' stop='1673232706039'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='817b4645-e784-4223-a800-9cfb16b2c0ec-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673232711042' status='broken' stop='1673232711042'>
+            <name>When I click on Dates</name>
+            <title>When I click on Dates</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on Dates" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on Dates" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify past dates and back button on Current month's calender is disabled):6:5
+                	at Step(I click on Dates):7:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673232711043' status='broken' stop='1673232711043'>
+            <name>And I go to current month if not displayed</name>
+            <title>And I go to current month if not displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I go to current month if not displayed" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I go to current month if not displayed" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify past dates and back button on Current month's calender is disabled):6:5
+                	at Step(I go to current month if not displayed):8:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673232711043' status='broken' stop='1673232711043'>
+            <name>Then I Verify for current month past dates and back button on Current month's calender is disabled</name>
+            <title>Then I Verify for current month past dates and back button on Current month's calender is disabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I Verify for current month past dates and back button on Current month's calender is disabled" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I Verify for current month past dates and back button on Current month's calender is disabled" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify past dates and back button on Current month's calender is disabled):6:5
+                	at Step(I Verify for current month past dates and back button on Current month's calender is disabled):9:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673232711043' status='passed' stop='1673232711044'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

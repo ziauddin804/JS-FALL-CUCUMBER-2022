@@ -1,0 +1,136 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673227422724' stop='1673227438454'>
+    <name>Sprint: Verify user can submit feedback after completing the feedback form</name>
+    <title>Sprint: Verify user can submit feedback after completing the feedback form</title>
+    <test-cases>
+        <test-case start='1673227422724' status='passed' stop='1673227422725'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673227422725' status='passed' stop='1673227438453'>
+            <name>Given I am on hotels</name>
+            <title>Given I am on hotels</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps>
+                <step start='1673227422725' status='passed' stop='1673227425723'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='70050db0-fd91-4d8b-aae0-e21ac7dbecf9-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1673227430725' status='passed' stop='1673227433451'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='4d69e45c-9b2b-4843-9415-04b914261bf3-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673227438453' status='broken' stop='1673227438453'>
+            <name>When I change</name>
+            <title>When I change</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I change" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I change" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify user can submit feedback after completing the feedback form):33:5
+                	at Step(I change):35:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673227438453' status='broken' stop='1673227438453'>
+            <name>And I click login button</name>
+            <title>And I click login button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click login button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click login button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify user can submit feedback after completing the feedback form):33:5
+                	at Step(I click login button):36:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673227438453' status='broken' stop='1673227438454'>
+            <name>Then I Verify error is displayed</name>
+            <title>Then I Verify error is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I Verify error is displayed" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I Verify error is displayed" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify user can submit feedback after completing the feedback form):33:5
+                	at Step(I Verify error is displayed):37:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673227438454' status='passed' stop='1673227438454'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

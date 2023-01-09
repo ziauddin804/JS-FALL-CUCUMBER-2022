@@ -1,0 +1,168 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673233573591' stop='1673233581044'>
+    <name>Sprint: Verify language can be changed successfully</name>
+    <title>Sprint: Verify language can be changed successfully</title>
+    <test-cases>
+        <test-case start='1673233573591' status='passed' stop='1673233573591'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673233573591' status='passed' stop='1673233581042'>
+            <name>Given I am on hotels</name>
+            <title>Given I am on hotels</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps>
+                <step start='1673233573591' status='passed' stop='1673233576040'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5e10f4c9-6582-4b43-94db-96690d183c04-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673233581043' status='broken' stop='1673233581043'>
+            <name>When I click on "English"</name>
+            <title>When I click on "English"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on "English"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on "English"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify language can be changed successfully):43:5
+                	at Step(I click on "English"):44:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673233581043' status='broken' stop='1673233581043'>
+            <name>And I click on "Language"</name>
+            <title>And I click on "Language"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on "Language"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on "Language"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify language can be changed successfully):43:5
+                	at Step(I click on "Language"):45:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673233581043' status='broken' stop='1673233581043'>
+            <name>And I click on "Spanish"</name>
+            <title>And I click on "Spanish"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on "Spanish"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on "Spanish"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify language can be changed successfully):43:5
+                	at Step(I click on "Spanish"):46:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673233581043' status='broken' stop='1673233581043'>
+            <name>And I click on "Save" button</name>
+            <title>And I click on "Save" button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click on "Save" button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click on "Save" button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify language can be changed successfully):43:5
+                	at Step(I click on "Save" button):47:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673233581043' status='broken' stop='1673233581043'>
+            <name>Then I Verify "language can be changed successfully"</name>
+            <title>Then I Verify "language can be changed successfully"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I Verify "language can be changed successfully"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I Verify "language can be changed successfully"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify language can be changed successfully):43:5
+                	at Step(I Verify "language can be changed successfully"):48:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673233581043' status='passed' stop='1673233581044'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

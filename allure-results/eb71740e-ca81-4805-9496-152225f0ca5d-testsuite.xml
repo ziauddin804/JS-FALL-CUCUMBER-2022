@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1673233386656' stop='1673233394181'>
+    <name>Sprint: Verify invalid phone number error</name>
+    <title>Sprint: Verify invalid phone number error</title>
+    <test-cases>
+        <test-case start='1673233386656' status='passed' stop='1673233386656'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1673233386656' status='passed' stop='1673233394180'>
+            <name>Given I am on hotels</name>
+            <title>Given I am on hotels</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps>
+                <step start='1673233386657' status='passed' stop='1673233389179'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='55fcd395-e71e-4d50-a515-434fd932c1d8-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1673233394180' status='broken' stop='1673233394181'>
+            <name>When I input "Phone Number"</name>
+            <title>When I input "Phone Number"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I input "Phone Number"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I input "Phone Number"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify invalid phone number error):37:5
+                	at Step(I input "Phone Number"):38:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673233394181' status='broken' stop='1673233394181'>
+            <name>And I click "Get the app"</name>
+            <title>And I click "Get the app"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I click "Get the app"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I click "Get the app"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify invalid phone number error):37:5
+                	at Step(I click "Get the app"):39:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673233394181' status='broken' stop='1673233394181'>
+            <name>Then I Verify error "please enter a valid phone number." is displayed</name>
+            <title>Then I Verify error "please enter a valid phone number." is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I Verify error "please enter a valid phone number." is displayed" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I Verify error "please enter a valid phone number." is displayed" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(/Users/ziauddin/Documents/git/JS-FALL-CUCUMBER-2022/features/Hotels/sprint.feature):1:1
+                	at Scenario(Verify invalid phone number error):37:5
+                	at Step(I Verify error "please enter a valid phone number." is displayed):40:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1673233394181' status='passed' stop='1673233394181'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-108.0.5359.124'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
